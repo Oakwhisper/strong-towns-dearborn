@@ -6,6 +6,33 @@ export default function Home() {
           <h1 className="text-4xl font-bold mb-6">Welcome to Strong Towns Dearborn</h1>
           <p className="text-xl mb-8">Building a stronger, more resilient community together</p>
           
+          <div className="mt-12 mb-16 p-8 bg-gray-800 text-white rounded-lg shadow-lg">
+            <h2 className="text-2xl font-semibold mb-6 text-center text-white">Join Us In Person</h2>
+            <div className="space-y-4 text-lg">
+              <p className="flex items-center justify-center">
+                <svg className="w-5 h-5 mr-3 text-indigo-300" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
+                </svg>
+                First Monday of each month
+              </p>
+              <p className="flex items-center justify-center">
+                <svg className="w-5 h-5 mr-3 text-indigo-300" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+                </svg>
+                5:30 PM - 6:30 PM
+              </p>
+              <p className="flex items-center justify-center">
+                <svg className="w-5 h-5 mr-3 text-indigo-300" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" />
+                </svg>
+                Henry Ford Centennial Library, 2nd Floor
+              </p>
+              <p className="mt-4 text-gray-300 text-center">
+                16301 Michigan Ave, Dearborn, MI 48126
+              </p>
+            </div>
+          </div>
+
           <div className="mt-12">
             <h2 className="text-2xl font-semibold mb-4">Join Our Community</h2>
             <p className="mb-6">Connect with us on Discord to join the conversation and get involved!</p>
